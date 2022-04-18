@@ -1,8 +1,10 @@
 import * as React from "react"
 import Header from "../components/header"
 import Hero from "../components/hero"
+import Research from "../components/research"
 import SEO from "../components/seo"
 import "../components/layout.css"
+
 
 // styles
 const pageStyles = {
@@ -19,6 +21,7 @@ const IndexPage = () => {
       {/* <SEO> */}
         <Header/>
         <Hero/>
+        <Research/>
       {/* </SEO> */}
     </main>
   )

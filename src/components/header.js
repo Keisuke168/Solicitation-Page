@@ -52,10 +52,10 @@ const Header =  () => (
       <p><a href="http://www.me.cs.scitec.kobe-u.ac.jp/award.html">Award</a></p>
     </li>
     <li class="button">
-      <p><a href="#">Research</a></p>
+      <p><a href="http://www.me.cs.scitec.kobe-u.ac.jp/research.html">Research</a></p>
     </li>
     <li class="button">
-      <p><a href="#">Contct</a></p>
+      <p><a href="http://www.me.cs.scitec.kobe-u.ac.jp/contact.html">Contct</a></p>
     </li>
   </ul>
 </div>
