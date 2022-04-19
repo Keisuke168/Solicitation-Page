@@ -19,11 +19,10 @@ const pageStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      {/* <SEO> */}
-        <Header/>
-        <Hero/>
-        <Contents/>
-      {/* </SEO> */}
+      <SEO/>
+      <Header/>
+      <Hero/>
+      <Contents/>
     </main>
   )
 }

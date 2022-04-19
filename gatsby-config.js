@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `CS17オープンラボ特設サイト`,
-    description: `2022年滝口研究室のオープンラボ特設サイト`,
+    title: `CS17滝口研究室`,
+    description: `CS17滝口研究室`,
     lang: `ja`,
     siteUrl: `https://********.netlify.app`,
     locale: `ja_JP`,
@@ -13,6 +13,7 @@ module.exports = {
     "gatsby-plugin-emotion",
      "gatsby-plugin-react-helmet", 
      "gatsby-plugin-mdx", 
+     
   {
     resolve: 'gatsby-source-filesystem',
     options: {
