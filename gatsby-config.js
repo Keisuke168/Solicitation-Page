@@ -7,12 +7,19 @@ module.exports = {
     locale: `ja_JP`,
     fbappid: `XXXXXXXXXXXXXXXXXXXXX`,
   },
-  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-react-helmet", "gatsby-plugin-mdx", {
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-emotion",
+     "gatsby-plugin-react-helmet", 
+     "gatsby-plugin-mdx", 
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+]
 };

@@ -1,6 +1,7 @@
 import * as React from "react"
 import Header from "../components/header"
 import Hero from "../components/hero"
+import Contents from "../components/contents"
 import Research from "../components/research"
 import SEO from "../components/seo"
 import "../components/layout.css"
@@ -21,7 +22,7 @@ const IndexPage = () => {
       {/* <SEO> */}
         <Header/>
         <Hero/>
-        <Research/>
+        <Contents/>
       {/* </SEO> */}
     </main>
   )
