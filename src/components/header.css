@@ -8,7 +8,6 @@
   }
   .navigation ul {
     width: 100%;
-    margin: 10px;
   }
   .button{
     display: block;
@@ -54,3 +53,11 @@
   .navigation:hover .button:hover > p {
     font-weight: bold;
   }
+
+@media (max-width:768px) {
+  .navigation ul{
+    padding-inline-start: 0px;
+    font-size: 16px;
+  }
+  
+}

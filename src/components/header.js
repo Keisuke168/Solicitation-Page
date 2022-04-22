@@ -15,10 +15,19 @@ const Content = styled.div`
   font-weight: 200;
   font-family: "Helvetica Neue",
   border-bottom: 4px solid #66a5b3;
+
+  @media(max-width: 768px){
+    margin: 0 10px;
+    text-align : center;
+  }
 `
 
 const Large = styled.span`
     font-size: 40px;
+
+    @media(max-width: 768px){
+      font-size: 25px;
+    }
 `
 
 const P = styled.p`
@@ -26,6 +35,12 @@ const P = styled.p`
   border-bottom: 0.5px solid white;
   padding-bottom: 2px;
   margin: 0;
+
+  @media(max-width: 768px){
+    font-size: 20px;
+    text-align : center;
+    margin: auto;
+  }
 `
 
 const Univ = styled.p`

@@ -1,6 +1,5 @@
 import * as React from "react"
 import styled from '@emotion/styled'
-import Research from "./research"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Wrapper = styled.div`
@@ -8,9 +7,10 @@ const Wrapper = styled.div`
     padding: 30px 180px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    @media (min-width: 768px){
-        flex-direction: row;
+    flex-direction: row;
+    @media (max-width: 768px){
+        flex-direction: column;
+        padding: 20px 52px;
     }
 `
 
@@ -19,9 +19,10 @@ const WrapperR = styled.div`
     padding: 30px 180px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    @media (min-width: 768px){
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    @media (max-width: 768px){
+        flex-direction: column;
+        padding: 20px 52px;
     }
 `
 
@@ -40,6 +41,9 @@ const Title = styled.p`
 const Slide = styled.div`
     flex-basis: 25%;
     padding: 20px;
+    @media (max-width: 768px){
+        padding: 40px;
+    }
 `
 
 

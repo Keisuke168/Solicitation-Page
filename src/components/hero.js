@@ -7,21 +7,33 @@ const Title = styled.p`
     font-size: 38px;
     border-bottom: 4px solid #66a5b3;
     padding-bottom: 1rem;
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 
 `
 
 const Large = styled.span`
     font-size: 52px;
+    @media (max-width: 768px) {
+        font-size: 22px;
+    }
 `
 
 const Entry = styled.div`
     color: rgb(102, 102, 102);
     font-size: 24px;
     padding: 0 2rem;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 
 const Wrapper = styled.div`
     padding: 20px 96px;
+    @media (max-width: 768px) {
+        padding: 20px;
+    }
 `
 
 const Hero = () => {
@@ -35,7 +47,7 @@ const Hero = () => {
             研究室で行われているプロジェクトを以下に紹介していますので，ご確認ください．
             他にも多くのプロジェクトがありますし，毎年新しいプロジェクトも始まります．興味のあるテーマがありましたら，一緒に挑戦しましょう．
             いつでも研究室見学（受験生向け）
-            見学希望の方は，takigu@kobe-u.ac.jp まで連絡ください． 
+            見学希望の方は，takiguあっとkobe-u.ac.jp まで連絡ください． 
             </Entry>
         </Wrapper>
     )
