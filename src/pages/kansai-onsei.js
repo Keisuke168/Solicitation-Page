@@ -4,6 +4,7 @@ import "../components/layout.css"
 import Movie from "../images/kobe.mp4"
 import Layout from "../components/layout"
 import styled from '@emotion/styled'
+import Img from '../images/at.jpg'
 
 // styles
 const pageStyles = {
@@ -17,7 +18,7 @@ const pageStyles = {
 const Title = styled.p`
     color: rgb(102, 102, 102);
     width: 80%;
-    margin: 5% auto;
+    margin: 4% auto;
     text-align: center;
     font-size: 38px;
     border-bottom: 4px solid #66a5b3;
@@ -48,6 +49,13 @@ const KansaiOnsei = () => {
                 </div>
             
             </div>
+
+            <ul>
+                <li>日時：2022年7月9日（土） </li>
+                <li>会場：神戸大学百年記念館 </li>
+                <li>住所：〒657-8501<br className='br'/>　兵庫県神戸市灘区六甲台町１−１ </li>
+            </ul>
+
 
             <Title>
                 ▼全体プログラム
@@ -84,8 +92,23 @@ const KansaiOnsei = () => {
                     <th>16:50</th>
                     <th>ポスターセッション（第４セッション）</th>
                 </tr>
+                <tr>
+                    <th>16:50</th>
+                    <th>17:00</th>
+                    <th>閉会式</th>
+                </tr>
                 
             </table>
+
+            <Title>
+                ▼連絡先
+            </Title>
+            <div className='mail'>
+            <ul>
+                <li>代表：滝口 哲也<br className='br'/>  神戸大学大学院システム情報学研究科 情報科学専攻 メディア情報研究室</li>
+                <li>Email：takigu<img src={Img}/>kobe-u.ac.jp </li>
+            </ul>
+            </div>
         </Layout>
 
     </main>

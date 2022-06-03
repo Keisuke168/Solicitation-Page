@@ -83,3 +83,48 @@ table{
     margin-bottom: 10%;
     font-family:'Courier New', Courier, monospace;
 }
+
+/* list */
+ul, ol {
+    width: 70%;
+    margin: 10% auto;
+    border-top: solid #66a5b3 1px;/*上のボーダー*/
+    border-bottom: solid #66a5b3 1px;/*下のボーダー*/
+    padding: 0.5em 0 0.5em 1.5em;
+}
+
+ul li, ol li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+@media (min-width: 768px){
+    .br{
+        display: none;
+    }
+
+}
+
+/* adress */
+.mail{
+    width: 100%;
+    font-size: 2vw;
+    margin: 0 auto;
+}
+.mail img{
+    height: 1vw;
+}
+.mail ul{
+    border-top: solid #66a5b3 0px;/*上のボーダー*/
+    border-bottom: solid #66a5b3 0px;/*下のボーダー*/
+}
+@media (min-width: 768px){
+    .mail{
+        width: 80%;
+        font-size: 1.3vw;
+    }
+    .mail img{
+        height: 1.3vw;
+    }
+
+}
