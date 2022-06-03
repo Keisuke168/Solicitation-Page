@@ -1,7 +1,7 @@
 import * as React from "react"
 import SEO from "../components/seo"
 import "../components/layout.css"
-import Movie from "../images/video.mp4"
+import Movie from "../images/kobe.mp4"
 import Layout from "../components/layout"
 
 
