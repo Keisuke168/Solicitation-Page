@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `CS17滝口研究室`,
-    description: `CS17滝口研究室`,
+    title: `関西合同音声ゼミ Kansai Joint Speech Seminar`,
+    description: `関西合同音声ゼミ Kansai Joint Speech Seminar`,
     lang: `ja`,
     siteUrl: `https://********.netlify.app`,
     locale: `ja_JP`,
