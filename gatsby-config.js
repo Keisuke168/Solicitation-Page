@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://********.netlify.app`,
     locale: `ja_JP`,
     fbappid: `XXXXXXXXXXXXXXXXXXXXX`,
+    image: '.src/images/card.jpg',
   },
   plugins: [
     "gatsby-plugin-image",
