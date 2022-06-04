@@ -104,7 +104,7 @@ const KansaiOnsei = () => {
                 ▼連絡先
             </Title>
             <div className='mail'>
-                <p>滝口 哲也<br className='br'/>  神戸大学大学院システム情報学研究科 情報科学専攻 メディア情報研究室</p>
+                <p>神戸大学大学院システム情報学研究科 情報科学専攻 メディア情報研究室<br/>滝口 哲也</p>
                 <p>Email：takigu<img src={Img}/>kobe-u.ac.jp </p>
             </div>
         </Layout>
