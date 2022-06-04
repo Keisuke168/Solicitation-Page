@@ -17,12 +17,8 @@ const pageStyles = {
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <SEO/>
-      <Header/>
-      <Hero/>
-      <Contents/>
-    </main>
+      <meta http-equiv="refresh" content="0;URL=https://cs17kobe-u.jp" />
+    
   )
 }
 
