@@ -28,9 +28,7 @@ export default props => {
     ? `${data.site.siteMetadata.siteUrl}${props.pagepath}`
     : data.site.siteMetadata.siteUrl
 
-  const imgurl = props.pageimg
-    ? `../images/0.jpg`
-    : `../images/0.jpg`
+  const imgurl = `../images/0.jpg`
   const imgw = props.pageimgw || 1280
   const imgh = props.pageimgh || 640
 
