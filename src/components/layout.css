@@ -85,7 +85,7 @@ table{
 }
 
 /* list */
-ul, ol {
+.info {
     width: 70%;
     margin: 10% auto;
     border-top: solid #66a5b3 1px;/*上のボーダー*/
@@ -93,7 +93,9 @@ ul, ol {
     padding: 0.5em 0 0.5em 1.5em;
 }
 
-ul li, ol li {
+.info li
+{
+	padding-inline-start: 0px;
     line-height: 1.5;
     padding: 0.5em 0;
 }
@@ -107,9 +109,10 @@ ul li, ol li {
 
 /* adress */
 .mail{
-    width: 100%;
+    width: 70%;
     font-size: 2vw;
     margin: 0 auto;
+	margin-bottom: 10%;
 }
 .mail img{
     height: 1vw;
@@ -120,7 +123,7 @@ ul li, ol li {
 }
 @media (min-width: 768px){
     .mail{
-        width: 80%;
+        width: 50%;
         font-size: 1.3vw;
     }
     .mail img{

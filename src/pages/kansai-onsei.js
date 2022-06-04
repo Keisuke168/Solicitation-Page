@@ -50,7 +50,7 @@ const KansaiOnsei = () => {
             
             </div>
 
-            <ul>
+            <ul className="info">
                 <li>日時：2022年7月9日（土） </li>
                 <li>会場：神戸大学百年記念館 </li>
                 <li>住所：〒657-8501<br className='br'/>　兵庫県神戸市灘区六甲台町１−１ </li>
@@ -104,10 +104,8 @@ const KansaiOnsei = () => {
                 ▼連絡先
             </Title>
             <div className='mail'>
-            <ul>
-                <li>代表：滝口 哲也<br className='br'/>  神戸大学大学院システム情報学研究科 情報科学専攻 メディア情報研究室</li>
-                <li>Email：takigu<img src={Img}/>kobe-u.ac.jp </li>
-            </ul>
+                <p>滝口 哲也<br className='br'/>  神戸大学大学院システム情報学研究科 情報科学専攻 メディア情報研究室</p>
+                <p>Email：takigu<img src={Img}/>kobe-u.ac.jp </p>
             </div>
         </Layout>
 
