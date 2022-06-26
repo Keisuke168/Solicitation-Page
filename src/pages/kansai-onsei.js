@@ -101,6 +101,24 @@ const KansaiOnsei = () => {
             </table>
 
             <Title>
+                ▼発表プログラム
+            </Title>
+
+            <Title>
+                ▼アクセス
+            </Title>
+            <div className="access">
+                <ul>
+                    <li>徒歩<br/>阪急神戸線「六甲」駅から約15〜20分</li> <br/>
+                    <li>バス<br/>阪急神戸線「六甲」駅、JR「六甲道」駅、又は阪神本線「御影」駅から、
+市バス 36系統「鶴甲団地」行きに乗車、<br/>「神大文・理・農学部前」もしくは「神大本部・ 工学部前」下車。(阪急六甲駅から約10分、JR六甲道駅から約15分、阪神御影駅から約20分)  </li>
+                </ul>
+
+                <p>バス運賃は210円です。</p>
+                <a href="https://www.city.kobe.lg.jp/a71810/kurashi/access/kotsukyoku/bus/jikoku/index.html">神戸市バス時刻表</a>
+                
+            </div>
+            <Title>
                 ▼連絡先
             </Title>
             <div className='mail'>

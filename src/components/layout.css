@@ -131,3 +131,25 @@ table{
     }
 
 }
+
+/* アクセス */
+.access{
+    width: 80%;
+    font-size: 2vw;
+    margin: 0 auto;
+	margin-bottom: 10%;
+}
+.access img{
+    height: 1vw;
+}
+
+@media (min-width: 768px){
+    .access{
+        width: 70%;
+        font-size: 1.3vw;
+    }
+    .access img{
+        height: 1.3vw;
+    }
+
+}
