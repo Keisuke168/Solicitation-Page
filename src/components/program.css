@@ -38,3 +38,20 @@ h1.sec{
     margin:auto;
     text-align:center;
 }
+
+@media (max-width: 768px) {
+    h1.sec{
+        font-size: 4vw;
+    }
+
+    table.pro{
+        font-size:1.4vw;
+    }
+
+    table.pro span{
+        font-size: 1.2vw;
+    }
+    br.sep{
+        display: none
+    }
+}

@@ -23,7 +23,7 @@ const Program = () => {
             <tr>
                 <td></td>
                 <td>中西　清貴<br/><span>(立命館大学　西浦研究室)</span></td>
-                <td>Speech Extraction Using Row-Wise Inter-Frame Correlation<br/> of Video Recorded by Rolling-Shutter Camera</td>
+                <td>Speech Extraction Using Row-Wise Inter-Frame Correlation<br className='sep'/> of Video Recorded by Rolling-Shutter Camera</td>
             </tr>
             <tr>
                 <td></td>
@@ -33,7 +33,7 @@ const Program = () => {
             <tr>
                 <td></td>
                 <td>古谷　康佑<br/><span>(立命館大学　西浦研究室)</span></td>
-                <td>Improvement of Lateral Sound Image Localization in Transaural Systems<br/> with Parametric Array Loudspeakers</td>
+                <td>Improvement of Lateral Sound Image Localization in Transaural Systems<br className='sep'/> with Parametric Array Loudspeakers</td>
             </tr>
             <tr>
                 <td></td>
@@ -147,17 +147,17 @@ const Program = () => {
             <tr>
                 <td></td>
                 <td>少路 春希<br/><span>(立命館大学 西浦研究室)</span></td>
-                <td>Evaluation of the Low-Cost Numerical Variance Suppression Method<br/> for Outdoor Far Field in Wave Acoustic Simulations </td>
+                <td>Evaluation of the Low-Cost Numerical Variance Suppression Method<br className='sep'/> for Outdoor Far Field in Wave Acoustic Simulations </td>
             </tr>
             <tr>
                 <td></td>
                 <td>中村 晃希<br/><span>(立命館大学 西浦研究室)</span></td>
-                <td>Evaluation for improvement of noise reduction performance by PID filter<br/> in active noise control with optical laser microphone</td>
+                <td>Evaluation for improvement of noise reduction performance by PID filter<br className='sep'/> in active noise control with optical laser microphone</td>
             </tr>
             <tr>
                 <td></td>
                 <td>原田 優菜<br/><span>(立命館大学 西浦研究室)</span></td>
-                <td>A study on initial reverberation control on surround sound system<br/> using parametric and electro-dynamic loudspeakers</td>
+                <td>A study on initial reverberation control on surround sound system<br className='sep'/> using parametric and electro-dynamic loudspeakers</td>
             </tr>
 
             <tr>
@@ -183,7 +183,7 @@ const Program = () => {
             <tr>
                 <td></td>
                 <td>Soky Kak<br/><span>(京都大学 河原研究室)</span></td>
-                <td>Leveraging Simultaneous Translation for Enhancing Transcription of<br/> Low-resource Language via Cross Attention Mechanism</td>
+                <td>Leveraging Simultaneous Translation for Enhancing Transcription of<br className='sep'/> Low-resource Language via Cross Attention Mechanism</td>
             </tr>
             <tr>
                 <td></td>
@@ -233,19 +233,19 @@ const Program = () => {
             <tr>
                 <td></td>
                 <td>Shi Hao<br/><span>(京都大学 河原研究室)</span></td>
-                <td>Monaural Speech Enhancement Based on Spectrogram Decomposition<br/> for Convolutional Neural Network-sensitive Feature Extraction</td>
+                <td>Monaural Speech Enhancement Based on Spectrogram Decomposition<br className='sep'/> for Convolutional Neural Network-sensitive Feature Extraction</td>
             </tr>
             <tr>
                 <td></td>
                 <td>Fu Yahui<br/><span>(京都大学 河原研究室)</span></td>
-                <td>Dual Variational Generative Model and Retrieval Calibration<br/> for Empathetic Response Generation</td>
+                <td>Dual Variational Generative Model and Retrieval Calibration<br className='sep'/> for Empathetic Response Generation</td>
             </tr>
 
 
             <tr>
                 <td></td>
                 <td>Juntao Zhu<br/><span>(同志社大学 加藤・田村研究室)</span></td>
-                <td>Allocentric or egocentric controlled response generation<br/> in attention-based neural conversational model</td>
+                <td>Allocentric or egocentric controlled response generation<br className='sep'/> in attention-based neural conversational model</td>
             </tr>            
             <tr>
                 <td></td>
@@ -270,7 +270,7 @@ const Program = () => {
             <tr>
                 <td></td>
                 <td>芳澤 翼<br/><span>(立命館大学 西浦研究室)</span></td>
-                <td>Investigation on Effect of Active Pixel Ranges and Pyramid Levels<br/> on Speech Extraction from Video Captured by Rolling-Shutter Camera</td>
+                <td>Investigation on Effect of Active Pixel Ranges and Pyramid Levels<br className='sep'/> on Speech Extraction from Video Captured by Rolling-Shutter Camera</td>
             </tr>
             <tr>
                 <td></td>
