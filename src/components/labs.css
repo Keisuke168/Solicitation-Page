@@ -1,0 +1,30 @@
+table.labs{
+    text-align: center;
+    font-size: 1.2vw;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+@media (max-width: 768px){
+    table.labs{
+        font-size:1.8vw;
+        width:80%;
+    }
+    
+}
+
+table.labs .univ{
+    width:40%;
+}
+
+table.labs .lab{
+    width:40%;
+}
+
+table.labs .num{
+    width:10%;
+}
+
+table.labs .pnum{
+    width:10%;
+}

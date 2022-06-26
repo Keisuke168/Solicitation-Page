@@ -7,6 +7,7 @@ import styled from '@emotion/styled'
 import Img from '../images/at.jpg'
 import Map from '../images/access.jpg'
 import Program from "../components/program"
+import Labs from "../components/labs"
 
 // styles
 const pageStyles = {
@@ -142,6 +143,8 @@ const KansaiOnsei = () => {
             <Title>
                 ▼参加大学・研究室 
             </Title>
+
+            <Labs/>
 
             
             <Title>
