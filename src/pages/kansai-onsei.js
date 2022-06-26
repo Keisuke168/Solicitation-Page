@@ -5,6 +5,7 @@ import Movie from "../images/kobe.mp4"
 import Layout from "../components/layout"
 import styled from '@emotion/styled'
 import Img from '../images/at.jpg'
+import Map from '../images/access.jpg'
 import Program from "../components/program"
 
 // styles
@@ -57,6 +58,29 @@ const KansaiOnsei = () => {
                 <li>住所：〒657-8501<br className='br'/>　兵庫県神戸市灘区六甲台町１−１ </li>
             </ul>
 
+            <Title>
+                ▼アクセス
+            </Title>
+            <div className="access">
+                <ul>
+                    <li>徒歩<br/>阪急神戸線「六甲」駅から約15〜20分</li> <br/>
+                    <li>バス<br/>阪急神戸線「六甲」駅、JR「六甲道」駅、又は阪神本線「御影」駅から、
+市バス 36系統「鶴甲団地」行きに乗車、<br/>「神大文・理・農学部前」もしくは「神大本部・ 工学部前」下車。(阪急六甲駅から約10分、JR六甲道駅から約15分、阪神御影駅から約20分)  </li>
+
+                <p>バス運賃は210円です。</p>
+                <a href="https://www.city.kobe.lg.jp/a71810/kurashi/access/kotsukyoku/bus/jikoku/index.html">神戸市バス時刻表</a>
+               
+                </ul>
+
+                 <br/>
+                
+                <div className="map-cont"><img className='map' src={Map}></img></div>
+
+                <div className="text">
+                    <p className="text">学内の生協食堂は、現在、土曜日は閉まっています。<br/>学内のコンビニは営業しています。また駅周辺にはコンビニやお店があります。 </p>
+                </div>
+            </div>
+
 
             <Title>
                 ▼全体プログラム
@@ -101,25 +125,25 @@ const KansaiOnsei = () => {
                 
             </table>
 
+            <div className='text'>
+                <p>※ ポスター作成に関する留意点<br/>
+                    ポスターを貼るパネルのサイズは，およそ縦163cm×横83cmです．<br/>
+                    ポスターは，押しピンで固定してください（押しピンは本学で用意いたします）．<br/>
+                    研究室ごとに発表の概要をA4用紙1枚程度にまとめて140部ご用意の上、 受付にご持参ください。</p>
+            </div>
+
+
+
             <Title>
                 ▼発表プログラム
             </Title>
             <Program/>
 
             <Title>
-                ▼アクセス
+                ▼参加大学・研究室 
             </Title>
-            <div className="access">
-                <ul>
-                    <li>徒歩<br/>阪急神戸線「六甲」駅から約15〜20分</li> <br/>
-                    <li>バス<br/>阪急神戸線「六甲」駅、JR「六甲道」駅、又は阪神本線「御影」駅から、
-市バス 36系統「鶴甲団地」行きに乗車、<br/>「神大文・理・農学部前」もしくは「神大本部・ 工学部前」下車。(阪急六甲駅から約10分、JR六甲道駅から約15分、阪神御影駅から約20分)  </li>
-                </ul>
 
-                <p>バス運賃は210円です。</p>
-                <a href="https://www.city.kobe.lg.jp/a71810/kurashi/access/kotsukyoku/bus/jikoku/index.html">神戸市バス時刻表</a>
-                
-            </div>
+            
             <Title>
                 ▼連絡先
             </Title>

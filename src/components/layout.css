@@ -80,7 +80,7 @@ video{
 table{
     margin: 0 auto;
     font-size: 2vw;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-family:'Courier New', Courier, monospace;
     border-collapse: collapse
 }
@@ -140,8 +140,13 @@ table{
     margin: 0 auto;
 	margin-bottom: 10%;
 }
-.access img{
-    height: 1vw;
+.access img.map{
+    height:50vh;
+}
+
+.map-cont{
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media (min-width: 768px){
@@ -149,8 +154,25 @@ table{
         width: 70%;
         font-size: 1.3vw;
     }
-    .access img{
-        height: 1.3vw;
+    .access img.map{
+        height: 70vh;
     }
-
 }
+
+div.text{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.8vw;;
+}
+
+div.text p{
+    display: inline-block;
+    text-align: left;
+}
+
+@media (min-width: 768px){
+    div.text{
+        font-size: 1.4vw;
+    }
+}
+
