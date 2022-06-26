@@ -82,6 +82,7 @@ table{
     font-size: 2vw;
     margin-bottom: 10%;
     font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse
 }
 
 /* list */

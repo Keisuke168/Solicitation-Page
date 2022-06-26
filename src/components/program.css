@@ -1,0 +1,40 @@
+table.pro{
+    counter-reset: rowCount;
+    text-align: center;
+    font-size: 1.2vw;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+table.pro tbody tr{
+    counter-increment: rowCount;
+}
+
+table.pro td{
+    padding:1vh 1vw;
+}
+
+table.pro tbody tr td:first-child::before{
+    content: counter(rowCount);
+}
+
+table.pro span{
+    font-size: 0.7vw;
+}
+
+table.pro .title{
+    width: 65%;
+}
+
+table.pro .name{
+    width: 30%;
+}
+table.pro .no{
+    width: 5%;
+}
+
+h1.sec{
+    color: rgb(102, 102, 102);
+    margin:auto;
+    text-align:center;
+}

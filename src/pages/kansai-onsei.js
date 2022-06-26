@@ -5,6 +5,7 @@ import Movie from "../images/kobe.mp4"
 import Layout from "../components/layout"
 import styled from '@emotion/styled'
 import Img from '../images/at.jpg'
+import Program from "../components/program"
 
 // styles
 const pageStyles = {
@@ -103,6 +104,7 @@ const KansaiOnsei = () => {
             <Title>
                 ▼発表プログラム
             </Title>
+            <Program/>
 
             <Title>
                 ▼アクセス
