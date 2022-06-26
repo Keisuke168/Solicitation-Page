@@ -1,0 +1,142 @@
+import * as React from "react"
+import "./labs.css"
+
+const Labs = () => {
+    return(
+        <table border="1" className="labs">
+            <thead bgcolor='gray'>
+            <tr>
+                <td className="univ">大学名</td>
+                <td className="lab">研究室名</td>
+                <td className="num">参加人数</td>
+                <td className="pnum">ポスター<br/>発表人数</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>大阪大学</td>
+                <td>駒谷研究室</td>
+                <td>14</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>大阪工業大学</td>
+                <td>鈴木研究室</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>大阪産業大学</td>
+                <td>高橋研究室</td>
+                <td>9</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>大阪産業大学</td>
+                <td>中山研究室</td>
+                <td>12</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>関西学院大学</td>
+                <td>川端研究室</td>
+                <td>10</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>京都大学</td>
+                <td>河原研究室</td>
+                <td>24</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>京都工芸繊維大学</td>
+                <td>荒木研究室</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>神戸大学</td>
+                <td>滝口研究室</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>滋賀大学</td>
+                <td>市川研究室</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>滋賀大学</td>
+                <td>南條研究室</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>同志社大学</td>
+                <td>片桐・大崎研究室</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>同志社大学</td>
+                <td>加藤・田村研究室</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>奈良先端科学技術大学院大学</td>
+                <td>中村研究室</td>
+                <td>21</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>奈良先端科学技術大学院大学</td>
+                <td>吉野研究室</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>立命館大学</td>
+                <td>西浦研究室</td>
+                <td>23</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>立命館大学</td>
+                <td>山下研究室</td>
+                <td>10</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>龍谷大学</td>
+                <td>片岡研究室</td>
+                <td>10</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>和歌山大学</td>
+                <td>入野研究室</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>和歌山大学</td>
+                <td>西村研究室</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>合計</td>
+                <td>161</td>
+                <td>48</td>
+            </tr>
+
+            </tbody>
+        </table>
+    )
+}
+
+export default Labs
