@@ -5,6 +5,7 @@ import Movie from "../images/kobe.mp4"
 import Layout from "../components/layout"
 import styled from '@emotion/styled'
 import Img from '../images/at.jpg'
+import Program from "../components/program"
 
 // styles
 const pageStyles = {
@@ -68,38 +69,57 @@ const KansaiOnsei = () => {
                     <th>内容</th>
                 </tr>
                 <tr>
-                    <th>12:30</th>
+                    <th>12:45</th>
                     <th>---</th>
                     <th>受付開始</th>
                 </tr>
                 <tr>
-                    <th>13:00</th>
-                    <th>13:50</th>
+                    <th>13:15</th>
+                    <th>13:25</th>
+                    <th>オープニング</th>
+                </tr>
+                <tr>
+                    <th>13:30</th>
+                    <th>14:30</th>
                     <th>ポスターセッション（第１セッション）</th>
                 </tr>
                 <tr>
-                    <th>14:00</th>
-                    <th>14:50</th>
+                    <th>14:40</th>
+                    <th>15:40</th>
                     <th>ポスターセッション（第２セッション）</th>
                 </tr>
                 <tr>
-                    <th>15:00</th>
                     <th>15:50</th>
+                    <th>16:50</th>
                     <th>ポスターセッション（第３セッション）</th>
                 </tr>
                 <tr>
-                    <th>16:00</th>
-                    <th>16:50</th>
-                    <th>ポスターセッション（第４セッション）</th>
-                </tr>
-                <tr>
-                    <th>16:50</th>
                     <th>17:00</th>
-                    <th>閉会式</th>
+                    <th>17:10</th>
+                    <th>クロージング</th>
                 </tr>
                 
             </table>
 
+            <Title>
+                ▼発表プログラム
+            </Title>
+            <Program/>
+
+            <Title>
+                ▼アクセス
+            </Title>
+            <div className="access">
+                <ul>
+                    <li>徒歩<br/>阪急神戸線「六甲」駅から約15〜20分</li> <br/>
+                    <li>バス<br/>阪急神戸線「六甲」駅、JR「六甲道」駅、又は阪神本線「御影」駅から、
+市バス 36系統「鶴甲団地」行きに乗車、<br/>「神大文・理・農学部前」もしくは「神大本部・ 工学部前」下車。(阪急六甲駅から約10分、JR六甲道駅から約15分、阪神御影駅から約20分)  </li>
+                </ul>
+
+                <p>バス運賃は210円です。</p>
+                <a href="https://www.city.kobe.lg.jp/a71810/kurashi/access/kotsukyoku/bus/jikoku/index.html">神戸市バス時刻表</a>
+                
+            </div>
             <Title>
                 ▼連絡先
             </Title>
