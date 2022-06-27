@@ -8,6 +8,7 @@ import Img from '../images/at.jpg'
 import Map from '../images/access.jpg'
 import Program from "../components/program"
 import Labs from "../components/labs"
+import Accessmap from "../components/accessmap"
 
 // styles
 const pageStyles = {
@@ -75,7 +76,7 @@ const KansaiOnsei = () => {
 
                  <br/>
                 
-                <div className="map-cont"><img className='map' src={Map}></img></div>
+                 <Accessmap/>
 
                 <div className="text">
                     <p className="text">学内の生協食堂は、現在、土曜日は閉まっています。<br/>学内のコンビニは営業しています。また駅周辺にはコンビニやお店があります。 </p>
