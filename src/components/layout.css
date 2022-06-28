@@ -141,7 +141,7 @@ table{
 	margin-bottom: 10%;
 }
 .access img.map{
-    height:50vh;
+    width:100%;
 }
 
 .map-cont{
@@ -155,7 +155,7 @@ table{
         font-size: 1.3vw;
     }
     .access img.map{
-        height: 60vh;
+        width: 70%;
     }
 }
 
