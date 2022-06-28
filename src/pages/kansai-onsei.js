@@ -56,7 +56,7 @@ const KansaiOnsei = () => {
 
             <ul className="info">
                 <li>日時：2022年7月9日（土） </li>
-                <li>会場：神戸大学百年記念館 </li>
+                <li>会場：神戸大学百年記念館 <a href="https://www.kobe-u.ac.jp/guid/access/rokko/rokkodai-dai2.html">（キャンパスマップ）</a></li>
                 <li>住所：〒657-8501<br className='br'/>　兵庫県神戸市灘区六甲台町１−１ </li>
             </ul>
 
