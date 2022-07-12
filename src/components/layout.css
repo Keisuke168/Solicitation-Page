@@ -176,3 +176,15 @@ div.text p{
     }
 }
 
+.money{
+    width:80%;
+    margin:30px auto;
+    display: block;
+}
+
+@media (min-width: 768px){
+    .money{
+        width:60%;
+    }
+}
+

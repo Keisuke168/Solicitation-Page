@@ -5,6 +5,7 @@ import Movie from "../images/kobe.mp4"
 import Layout from "../components/layout"
 import styled from '@emotion/styled'
 import Img from '../images/at.jpg'
+import Money from '../images/money.png'
 import Program from "../components/program"
 import Labs from "../components/labs"
 import Accessmap from "../components/accessmap"
@@ -155,6 +156,11 @@ const KansaiOnsei = () => {
                 <p>神戸大学大学院システム情報学研究科 情報科学専攻 メディア情報研究室<br/>滝口 哲也</p>
                 <p>Email：takigu<img src={Img}/>kobe-u.ac.jp </p>
             </div>
+
+            <Title>
+                ▼会計報告
+            </Title>
+            <img className='money' src={Money}/>
         </Layout>
 
     </main>
